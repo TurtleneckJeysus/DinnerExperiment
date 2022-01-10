@@ -172,14 +172,6 @@ namespace DinnerExperiment.Classes.Files
             GetSaturday();
             Console.WriteLine("Sunday's ingredients are:\n");
             GetSunday();
-            /*Console.WriteLine($"Monday: Chicken, {GetItem(dish_Chicken)}, {GetItem(side_Veg)}, {GetItem(side_Carb)}");
-            Console.WriteLine($"Tuesday: Fish, {GetItem(dish_Fish)}, {GetItem(side_Veg)}, {GetItem(side_Carb)}");
-            Console.WriteLine($"Wednesday: Out");
-            Console.WriteLine($"Thursday: Turkey, {GetItem(dish_Turkey)}, {GetItem(side_Veg)}, {GetItem(side_Carb)}");
-            Console.WriteLine($"Friday: Beef, {GetItem(dish_Beef)}, {GetItem(side_Veg)}, {GetItem(side_Carb)}");
-            Console.WriteLine($"Saturday: Chicken, {GetItem(dish_Chicken)}, {GetItem(side_Veg)}, {GetItem(side_Carb)}");
-            Console.WriteLine($"Sunday: Fish, {GetItem(dish_Fish)}, {GetItem(side_Veg)}, {GetItem(side_Carb)}");
-            Console.WriteLine("<...............................................>");*/
 
             Console.SetOut(oldOut);
             writer.Close();
